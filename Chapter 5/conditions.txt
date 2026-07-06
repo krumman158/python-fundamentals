@@ -1,0 +1,14 @@
+if -> is a condition statement that is one way decision. It is a stand alone statement. Needs condition. Only one if is a good practice.
+ 
+else -> is a condition statement that is two way decision. It can not stand alone. Doesnot need condition. Only one else is possible otherwise error.
+
+elif -> it is a condition statement that is multiway decision. It needs condition. We can have multiple elif statements.
+
+Nested If-else -> if we implement nested if-else only then we can have multiple if and else statements.
+
+Inline if -> also known has short hand if statement. Also use if simple logic don't use for complex conditions. E:g:-
+    print("A" if score>=90 else "F")
+
+match statement -> it is like a switch statement in c++. Also should inlcude default case i:e case_. It is better than multiple if-else conditions because it easy to read and write.
+Can also give multiple conditions e:g
+case "United States" | "USA"

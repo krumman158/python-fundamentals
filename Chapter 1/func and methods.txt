@@ -1,0 +1,25 @@
+There is a standard library in python that has :-
+.- built-in modules
+.- specific modules like maths
+
+Built in modules:
+* In these there some built in functions like len() and type()
+but there we can make user defined functions
+
+* There are also classes for each data type like class str()
+and class int () which has there own methods
+
+Methods:
+* They are specific for a class like upper() and lower() for class str()
+
+* We can not use one class methods for other classes
+
+Methods vs Functions:
+* Functions can be built-in and user defined and can be used by any class if applicable like type() can be used by any class but len() can be used by all except int()
+
+* Methods are specific for class.
+
+Specific Modules:
+* Specific modules like maths it methods can be used by any class or data type but only if it is relevant like abs()
+for class int()
+

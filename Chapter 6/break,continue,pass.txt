@@ -1,0 +1,3 @@
+we use break when we want to terminate the loop. We use it when we have security and intergrity risks.
+we use continue when a certain condition is met we skip the iteration and move to next iteration. When we have empty file or data.
+we use pass for place holding, it doesnot skips the iteration.
