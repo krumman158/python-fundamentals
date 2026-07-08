@@ -1,0 +1,138 @@
+                                                                       1) Variables
+
+When we create an variable python creates an object in memory and variable references to that object. One or more variables can reference to same object in the memory. Python decides the data type of variables at run time which is known as dynamic typing. We don't have to specify the data type which is an advantage in python but not in other languages.
+
+ 
+                                                               2) Data Types And Structures
+
+.- String -> string is an iterable and non-mutable data type in python. It has following methods:-
+    Built-in func (type ,str)
+    Math func (len,count) -> len only works every data type and structure other than int,float,complex
+    Transformation func (split, *, indexing, slicing, f-string, concatenation, replace , join)
+    Cleaning func (strip, lstrip, rstrip)
+    Search func (startswith, endswith, find, in)
+    Validation func (isaplha, ialnum , isnumeric, isdigit, islower, isupper, ispace)
+    Case Conversion func (lower, upper)
+
+
+.- Numbers -> int is a non iterable and non-mutable data type in python. It has following methods:-
+
+     Built-in func (type,int,float,complex)
+     Maths func (round, ceil, float,trunc)
+     Operators (+,-,*,/,//,**,%)
+     Validation (isinstance, isint)
+     Random (random,randint)
+
+
+.- Bool -> it is a non itearable data type in python. It has following methods:-
+
+    zero, empty, none all are false.
+    methods (all, any)
+    comparison operators (<, > , ==, >=, <=, !,!=)
+    logical operators (and, not , or)
+    membership operators (in , not in)
+    identity operators (is , not is)
+
+.- Lists -> it is an iterable data structure in python. It is ordered, allows duplicates, indexed and mutable. It has following methods:-
+   
+   built-in func(min, max, sum, len, sorted, reversed)
+   methods (count, index)
+   adding func (append, extend, insert)
+   sorting func (sort, sorted)
+   reversing func (reverse, reversed)
+   removing func (pop, remove, clear)
+   updating func (directly by index)
+   combining func (direct concatenation)
+   
+   Comprehension. It has following syntax:-
+    
+       [1) data transformation, loops, data filtering]
+
+   Unpacking -> it is done via * and only captures middle items. 
+
+
+.- Sets -> it is an unordered, not allows duplicates, not indexed and mutable data structure in python. It has following methods:-
+   
+      adding func (add, update)
+      removing func (discard, remove, pop, clear)
+      copy func (copy)
+      maths func (union, intersection, difference)
+
+.- Tuples -> it is an ordered, allows duplicates , indexed but not mutable. It had following methods:-
+     count, index only
+
+.- Dictionary -> it is ordered, allows duplicates , indexed and mutable. It has following methods:-
+     indexing func(items, keys, values, get)
+     removing func (pop, clear, popitem)
+     copy -> copy()
+   
+    Comprehension -> [1) Expression (transformation) 2) loops 3) filtering]
+
+
+                                                                  3) Conditions
+
+If -> it is a single way decision. It can stand alone. It needs a condition. Multiple if is a bad practice.
+Else -> it is a two way decision . It can't stand alone. It doesn't need a condition. Multiple else is not possible.
+Elif->  it is a multiway decision. It can't stand alone. It needs a condition. Multiple elif are possible.
+Inline if -> also known as short hand if.
+Match case -> just like a switch statement in c++. It is an alternative for multiple if-else conditions better to use this.
+
+     
+                                                                   4) Loops
+
+For Loop -> we use this loop when number of iterations are known to us.
+While Loop -> we use it when number of iterations are unknown.
+For, while with else -> else only executes after loop when loop executes normally i:e without error or break.
+
+Break, continue, pass -> break it terminates a loop when a condition is met. continue -> it skips an iteration when a condition is met. pass-> it is a placeholder.
+ 
+                                                                   5) Functions
+
+Built-In Functions vs Modules vs Libraries -> Built-in functions are already available in python no need to import them e:g print(). Modules are single python file that are collection of classes, functions etc e:g math. Libraries are collection of modules e:g NumPy.
+
+Function Types:-
+ Action Functions -> they perform a specific action and don't return anything.
+ Transformation Function -> they take raw data apply some transformations and give clean structured data
+ Validation Function -> they performs validations and return True/False.
+ Orchestrator Function -> they control the program flow, order in which all functions executes
+ Lambda Functions -> they are short one line functions instead of building the whole functions we create short functions
+
+
+Parameters -> they are the names given during the function definition.
+Arguments -> they are the names given during the function call.
+Types of Parameters -> default parameters(if we don't give their values python will use default values), simple parameters.
+Types of Arguments -> Positional arguments (values given based in their order. here order matters) , Keyword Arguments (values given based on their names. here order don't matters)
+
+*args -> used only for positional arguments. we use it when we are not sure how many parameters we will use . Data type is tuple and use when all data in parameters have data type
+
+**kwargs -> used only with keyword arguments. we use it when all parameters may or may not have same data type. they are dictionary.
+
+Local variables -> they can only be used inside a function and when function call finishes they are collected as garbage. 
+Global variables -> they can be used inside and outside a function and remain in memory even when function executes.
+
+                                                              6) Iterators & Generators
+
+Iterators -> they are the process or machine they do our required work. We use them because 1) looping over objects 2) to save the memory so we don't have to load all data in memory at once 3)  to build efficient pipelines. They return an iterable object so we have to convert them into a valid data structure. We have built-in iterators i:e
+
+  enumerators -> it returns the items of data structure along with their indexes
+  zip -> to map item of one data structure with another
+  map -> to map an item with a function
+  filter -> to filter the specific items. It automatically removes false values.
+
+Generators -> they are special type of functions that don't load data at once instead store the info that creates data.
+
+                                                               7) File Handling
+do it from vs code
+
+                                                               8) Garbage Collection
+
+It is a process that automatically detects the objects that are no longer available in memory. Python uses two approaches:-
+  reference counting -> each object has count of all variables referencing to it when count == 0 then object deletes from memory.
+  Garbage Collector -> there are some objects that are undetectable i:e exists in memory even after deletion. So then we use gc module.
+
+GC Module -> it forces garbage collection for unreachable objects. We can enable and disable garbage collection.
+
+ 
+ 
+
+

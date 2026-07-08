@@ -1,0 +1,17 @@
+                                                                              PYTHON 
+
+* We have to learn everything by keeping in mind the following points:
+  What are they + their concepts
+  How python handles them
+  What are the alternative approaches
+  What python offers that other languages not offers
+
+1) Variables
+2) Data types -> str , int , float , complex + their methods + iteratble data structures and data types
+3) Data structures -> lists (comprehension and unpacking) , tuples , dictionaries (comprehension) + their methods + their characteristics
+4) Conditions -> if , else , if-else , nested if-else , match case , in-line if 
+5) Loops -> For loop , while Loop , both loops with else
+6) Functions -> difference between libraries modules built-in functions , their other types + lambada functions + parameters and arguments with their types
+7) Iterators , generators 
+8) File handling
+9) Garbge Collection
